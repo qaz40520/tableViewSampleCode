@@ -15,6 +15,7 @@
 		35D68CE41A0BA81A00230530 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D68CE31A0BA81A00230530 /* Images.xcassets */; };
 		35D68CE71A0BA81A00230530 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D68CE51A0BA81A00230530 /* LaunchScreen.xib */; };
 		35D68CF31A0BA81B00230530 /* tableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D68CF21A0BA81B00230530 /* tableViewTests.m */; };
+		35D68CFE1A0BA94200230530 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D68CFD1A0BA94200230530 /* RootTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		35D68CEC1A0BA81B00230530 /* tableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D68CF11A0BA81B00230530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35D68CF21A0BA81B00230530 /* tableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableViewTests.m; sourceTree = "<group>"; };
+		35D68CFC1A0BA94200230530 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		35D68CFD1A0BA94200230530 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				35D68CD81A0BA81A00230530 /* AppDelegate.m */,
 				35D68CDD1A0BA81A00230530 /* ViewController.h */,
 				35D68CDE1A0BA81A00230530 /* ViewController.m */,
+				35D68CFC1A0BA94200230530 /* RootTableViewController.h */,
+				35D68CFD1A0BA94200230530 /* RootTableViewController.m */,
 				35D68CE01A0BA81A00230530 /* Main.storyboard */,
 				35D68CE31A0BA81A00230530 /* Images.xcassets */,
 				35D68CE51A0BA81A00230530 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D68CFE1A0BA94200230530 /* RootTableViewController.m in Sources */,
 				35D68CD91A0BA81A00230530 /* AppDelegate.m in Sources */,
 				35D68CD61A0BA81A00230530 /* main.m in Sources */,
 				35D68CDF1A0BA81A00230530 /* ViewController.m in Sources */,
